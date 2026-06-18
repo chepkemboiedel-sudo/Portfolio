@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <title>Edel Kiprop — Data Scientist</title>
+  <meta name="description" content="Edel Chepkemboi Kiprop — Data scientist and MS Computer Science student. Machine learning, NLP, data analysis and visualization with Python, SQL and Tableau." />
+  <meta name="author" content="Edel Chepkemboi Kiprop" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Edel Kiprop — Data Scientist" />
+  <meta property="og:description" content="Data scientist & MS Computer Science student. Machine learning, NLP & analytics with Python, SQL and Tableau." />
+  <meta property="og:image" content="assets/og-image.svg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Animated background -->
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="blob blob--3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Home">
+        <span class="nav__logo-mark">EK</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about" class="nav__link"><span class="nav__num">01.</span> About</a>
+        <a href="#skills" class="nav__link"><span class="nav__num">02.</span> Skills</a>
+        <a href="#projects" class="nav__link"><span class="nav__num">03.</span> Projects</a>
+        <a href="#experience" class="nav__link"><span class="nav__num">04.</span> Experience</a>
+        <a href="#contact" class="nav__link"><span class="nav__num">05.</span> Contact</a>
+        <a href="assets/Edel-Kiprop-Resume.pdf" class="btn btn--ghost nav__resume" target="_blank" rel="noopener">Resume</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <p class="hero__hello reveal">Hi, my name is</p>
+        <h1 class="hero__name reveal">Edel Kiprop.</h1>
+        <h2 class="hero__tagline reveal">
+          I build <span class="grad-text" id="typed"></span><span class="caret" aria-hidden="true">|</span>
+        </h2>
+        <p class="hero__intro reveal">
+          I'm a <strong>data scientist</strong> and Master's student in Computer Science. I turn
+          messy, real-world data into models, insights and clear stories — across NLP,
+          classification and analytics — and build the applications that put them to work.
+          Currently based in Riverside, California.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#projects" class="btn btn--primary">View my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+        <ul class="hero__socials reveal" aria-label="Social links">
+          <li><a href="https://github.com/chepkemboiedel-sudo" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.41 7.86 10.94.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.46-2.29 1.2-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.75.81 1.2 1.84 1.2 3.1 0 4.43-2.71 5.4-5.28 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/></svg>
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/edel-kiprop-bb7a54276/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a></li>
+          <li><a href="https://public.tableau.com/app/profile/edel.kiprop1293/vizzes" target="_blank" rel="noopener" aria-label="Tableau Public">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="11" width="3" height="8"/><rect x="10.5" y="5" width="3" height="14"/><rect x="16" y="14" width="3" height="5"/></svg>
+          </a></li>
+          <li><a href="https://app.joinhandshake.com/profiles/hb3vxk" target="_blank" rel="noopener" aria-label="Handshake">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M9.05 2.3c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v6.1c.3-.18.64-.3 1-.36V3.1c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v6.03c.36.07.7.2 1 .38V4.8c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v9.3a7.6 7.6 0 0 1-7.6 7.6h-.9a7.6 7.6 0 0 1-6.3-3.34l-2.2-3.24a1.5 1.5 0 0 1 2.43-1.76l1.57 2.1V5.3c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v4.3c.3-.18.64-.3 1-.36V2.3z"/></svg>
+          </a></li>
+          <li><a href="mailto:chepkemboiedel@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          </a></li>
+        </ul>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about">
+        <span class="hero__scroll-text">scroll</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">01.</span> About me</h2>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              Hello! I'm Edel,an aspiring research data scientist who likes turning data into decisions. I work
+              across the pipeline: <strong>cleaning and analysing data</strong>, building
+              <strong>machine-learning and NLP models</strong>, and presenting the results as
+              clear visual stories people can act on.
+            </p>
+            <p>
+              I'm currently pursuing a <strong>Master of Science in Computer Science</strong> at
+              California Baptist University, after earning my <strong>BSc in Computer Science</strong>
+              from Maseno University in Kenya. Along the way I've trained a deep-learning model to
+              detect pneumonia from chest X-rays, dug into datasets with SQL and Python, and
+              published interactive dashboards on Tableau Public.
+            </p>
+            <p>
+              I also have a strong <strong>software-development</strong> background — I've shipped
+              full-stack web apps with Next.js and PostgreSQL, and I integrate <strong>AI &amp; LLM
+              APIs</strong> into them — which means I can take a model the whole way from notebook to
+              an intelligent product someone actually uses.
+            </p>
+            <p>A few things I work with regularly:</p>
+            <ul class="about__list">
+              <li>Python</li>
+              <li>Machine Learning</li>
+              <li>NLP</li>
+              <li>Data Analysis</li>
+              <li>SQL</li>
+              <li>Tableau</li>
+            </ul>
+          </div>
+          <aside class="about__card">
+            <div class="about__monogram" aria-hidden="true">
+              <span>EK</span>
+            </div>
+            <dl class="about__facts">
+              <div><dt>Role</dt><dd>Data Scientist</dd></div>
+              <div><dt>Focus</dt><dd>ML · NLP · Analytics</dd></div>
+              <div><dt>Currently</dt><dd>MS Computer Science @ CBU</dd></div>
+              <div><dt>Based in</dt><dd>Riverside, California</dd></div>
+              <div><dt>Status</dt><dd><span class="dot"></span> Open to opportunities</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">02.</span> Skills &amp; tools</h2>
+        <div class="skills">
+          <article class="skills__group">
+            <h3 class="skills__head"><span class="skills__icon">∑</span> Data Science, ML &amp; AI</h3>
+            <ul class="chips">
+              <li>Python</li><li>Machine Learning</li><li>Deep Learning</li><li>NLP</li><li>Generative AI</li><li>AI / LLM APIs</li><li>Data Analysis</li><li>scikit-learn</li><li>pandas</li><li>NumPy</li>
+            </ul>
+          </article>
+          <article class="skills__group">
+            <h3 class="skills__head"><span class="skills__icon">▤</span> Data Viz &amp; BI</h3>
+            <ul class="chips">
+              <li>Tableau</li><li>Matplotlib</li><li>Seaborn</li><li>Jupyter</li>
+            </ul>
+          </article>
+          <article class="skills__group">
+            <h3 class="skills__head"><span class="skills__icon">⛁</span> Data &amp; Databases</h3>
+            <ul class="chips">
+              <li>SQL</li><li>PostgreSQL</li><li>MySQL</li><li>Data modeling</li>
+            </ul>
+          </article>
+          <article class="skills__group">
+            <h3 class="skills__head"><span class="skills__icon">{ }</span> Software Development</h3>
+            <ul class="chips">
+              <li>JavaScript</li><li>Next.js</li><li>React</li><li>PHP</li><li>Git &amp; GitHub</li><li>HTML/CSS</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">03.</span> Featured projects</h2>
+
+        <!-- Pneumonia classifier (data science lead) -->
+        <article class="project reveal">
+          <div class="project__media">
+            <div class="project__mock project__mock--ml" aria-hidden="true">
+              <span class="project__mock-badge">Deep Learning · CNN</span>
+              <div class="project__mock-scan"></div>
+              <span class="project__mock-label">Sample prediction</span>
+              <div class="ml-row"><span>Pneumonia</span><div class="project__mock-bar"><i style="width:92%"></i></div></div>
+              <div class="ml-row"><span>Normal</span><div class="project__mock-bar"><i style="width:8%"></i></div></div>
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__eyebrow">Featured · Data Science</p>
+            <h3 class="project__title">Pneumonia Classifier</h3>
+            <div class="project__desc">
+              <p>
+                <h4>ONGOING</h4>
+                A deep-learning model that reads chest X-ray images and classifies them as
+                pneumonia or normal. Built in Python with a convolutional neural network — covering
+                the full workflow from image preprocessing and augmentation to training, evaluation
+                and prediction.
+              </p>
+            </div>
+            <ul class="project__tags">
+              <li>Python</li><li>CNN</li><li>TensorFlow / Keras</li><li>Medical imaging</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/chepkemboiedel-sudo/pneumonia-classifier" target="_blank" rel="noopener" class="project__link" aria-label="Source code for Pneumonia Classifier">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.41 7.86 10.94.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.46-2.29 1.2-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.75.81 1.2 1.84 1.2 3.1 0 4.43-2.71 5.4-5.28 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/></svg>
+                Source
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Legal clause classifier (NLP) -->
+        <article class="project project--reverse reveal">
+          <div class="project__media">
+            <div class="project__mock project__mock--nlp" aria-hidden="true">
+              <span class="project__mock-badge">NLP · Text Classification</span>
+              <div class="nlp-doc">
+                <span class="nlp-line" style="width:92%"></span>
+                <span class="nlp-line" style="width:78%"></span>
+                <span class="nlp-clause">"...shall not disclose any Confidential Information..."</span>
+                <span class="nlp-line" style="width:85%"></span>
+              </div>
+              <div class="nlp-labels">
+                <span class="nlp-tag nlp-tag--on">Confidentiality</span>
+                <span class="nlp-tag">Termination</span>
+                <span class="nlp-tag">Indemnity</span>
+                <span class="nlp-tag">Governing law</span>
+              </div>
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__eyebrow">Featured · NLP</p>
+            <h3 class="project__title">Legal Clause Classifier</h3>
+            <div class="project__desc">
+              <p>
+                <h4>ONGOING</h4>
+                An NLP model that reads clauses from legal contracts and automatically tags each
+                one by type — confidentiality, termination, indemnification, governing law and
+                more. It runs the full text pipeline: cleaning and tokenizing clause text,
+                vectorizing it, and training a classifier to label unseen contract language.
+              </p>
+            </div>
+            <ul class="project__tags">
+              <li>NLP</li><li>Python</li><li>scikit-learn</li><li>Text classification</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Treasure School Management -->
+        <article class="project reveal">
+          <div class="project__media">
+            <div class="project__mock" aria-hidden="true">
+              <span class="project__mock-badge">School Platform</span>
+              <div class="project__mock-grid">
+                <span>Students</span><span>Teachers</span><span>Parents</span><span>Admin</span>
+              </div>
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__eyebrow">Featured · Full-stack</p>
+            <h3 class="project__title">The Treasure School Management System</h3>
+            <div class="project__desc">
+              <p>
+                A full-stack web application that streamlines the day-to-day operations of Kenyan
+                CBC schools. It brings students, teachers, parents, and administrators onto a single
+                platform — covering attendance, grades, fee payments, transport, health records, and
+                SMS alerts. Four role-based portals mean every user sees only what's relevant to them.
+              </p>
+            </div>
+            <ul class="project__tags">
+              <li>Next.js 14</li><li>PostgreSQL</li><li>Tailwind CSS</li><li>Role-based access</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://treasure-school-management.vercel.app/" target="_blank" rel="noopener" class="project__link" aria-label="Live demo of Treasure School Management System">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+                Live demo
+              </a>
+              <a href="https://github.com/chepkemboiedel-sudo/treasure-school-management" target="_blank" rel="noopener" class="project__link" aria-label="Source code for Treasure School Management System">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.41 7.86 10.94.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.46-2.29 1.2-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.75.81 1.2 1.84 1.2 3.1 0 4.43-2.71 5.4-5.28 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/></svg>
+                Source
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Deni -->
+        <article class="project project--reverse reveal">
+          <div class="project__media">
+            <div class="project__mock project__mock--deni" aria-hidden="true">
+              <span class="project__mock-badge">Debt-clarity PWA</span>
+              <div class="project__mock-stat">
+                <span class="project__mock-label">Real APR</span>
+                <span class="project__mock-num">42.6%</span>
+              </div>
+              <div class="project__mock-bar"><i style="width:78%"></i></div>
+              <div class="project__mock-bar"><i style="width:54%"></i></div>
+              <div class="project__mock-bar"><i style="width:33%"></i></div>
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__eyebrow">Featured · Full-stack</p>
+            <h3 class="project__title">Deni — Know Your Debt</h3>
+            <div class="project__desc">
+              <p>
+                A debt-clarity progressive web app for Kenyan borrowers. Deni converts lenders'
+                flat fees into the real APR you're actually paying, tracks all your loans in one
+                place, and generates an avalanche payoff plan — so you know exactly when you'll
+                be debt-free.
+              </p>
+            </div>
+            <ul class="project__tags">
+              <li>PWA</li><li>JavaScript</li><li>Offline-first</li><li>Financial calc</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://chepkemboiedel-sudo.github.io/Deni/" target="_blank" rel="noopener" class="project__link" aria-label="Live demo of Deni">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+                Live demo
+              </a>
+              <a href="https://github.com/chepkemboiedel-sudo/Deni" target="_blank" rel="noopener" class="project__link" aria-label="Source code for Deni">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.41 7.86 10.94.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.46-2.29 1.2-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.75.81 1.2 1.84 1.2 3.1 0 4.43-2.71 5.4-5.28 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/></svg>
+                Source
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- More work -->
+        <h3 class="more__title">More data &amp; dev work</h3>
+        <div class="more">
+          <article class="more-card reveal">
+            <span class="more-card__icon">⛁</span>
+            <h4 class="more-card__title">SQL Work</h4>
+            <p class="more-card__desc">A collection of SQL projects — queries, joins, aggregations and analysis used to pull insights out of relational datasets.</p>
+            <a href="https://github.com/chepkemboiedel-sudo/SQL-Work" target="_blank" rel="noopener" class="more-card__link">View on GitHub →</a>
+          </article>
+          <article class="more-card reveal">
+            <span class="more-card__icon">▤</span>
+            <h4 class="more-card__title">Tableau Dashboards</h4>
+            <p class="more-card__desc">Interactive data visualizations and dashboards published on Tableau Public, turning raw data into stories at a glance.</p>
+            <a href="https://public.tableau.com/app/profile/edel.kiprop1293/vizzes" target="_blank" rel="noopener" class="more-card__link">View on Tableau →</a>
+          </article>
+          <article class="more-card reveal">
+            <span class="more-card__icon">&lt;/&gt;</span>
+            <h4 class="more-card__title">More on GitHub</h4>
+            <p class="more-card__desc">Experiments, coursework and side projects across data science and web development live on my GitHub.</p>
+            <a href="https://github.com/chepkemboiedel-sudo" target="_blank" rel="noopener" class="more-card__link">@chepkemboiedel-sudo →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">04.</span> Experience &amp; education</h2>
+
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <p class="timeline__date">Sep 2025 — Present</p>
+            <h3 class="timeline__role">MSc Computer Science <span>· California Baptist University</span></h3>
+            <p class="timeline__place">Riverside, California · GPA 3.73 / 4.0</p>
+            <p class="timeline__desc">Graduate study in computer science with a focus on machine learning, data and software engineering.</p>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <p class="timeline__date">Jul 2025 — Aug 2025</p>
+            <h3 class="timeline__role">Data Entry Clerk Intern <span>· Jubilee Health Insurance</span></h3>
+            <p class="timeline__place">Nairobi HQ, Kenya</p>
+            <p class="timeline__desc">Owned data input, verification and validation; maintained records with attention to compliance, security, reporting and documentation.</p>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <p class="timeline__date">Jan 2024 — May 2024</p>
+            <h3 class="timeline__role">IT Volunteer <span>· Agriculture &amp; Food Authority (HCD)</span></h3>
+            <p class="timeline__place">Eldoret, Kenya</p>
+            <p class="timeline__desc">Installed and serviced systems, configured and troubleshot LANs, and ran online registration and training for exporters, marketing agents and nursery operators.</p>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <p class="timeline__date">Dec 2023</p>
+            <h3 class="timeline__role">BSc Computer Science <span>· Maseno University</span></h3>
+            <p class="timeline__place">Kisumu, Kenya · GPA 3.01 / 4.0</p>
+            <p class="timeline__desc">Bachelor's degree in computer science — foundations in programming, OOP, databases and software engineering.</p>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <p class="timeline__date">Jul 2022 — Sep 2022</p>
+            <h3 class="timeline__role">Software Development Attaché <span>· Kerio Valley Development Authority</span></h3>
+            <p class="timeline__place">Kenya</p>
+            <p class="timeline__desc">Built web and Android applications (PHP, HTML, CSS, JS, OOP), designed UX/UI, wrote documentation and tests, and supported networking and systems maintenance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <p class="contact__eyebrow"><span class="section__num">05.</span> What's next?</p>
+        <h2 class="contact__title">Let's build something.</h2>
+        <p class="contact__text">
+          I'm currently open to data science internships, new-grad roles and interesting
+          collaborations. Whether you have a question, an opportunity, or just want to say hi —
+          my inbox is open.
+        </p>
+        <a href="mailto:chepkemboiedel@gmail.com" class="btn btn--primary btn--lg">Say hello</a>
+
+        <ul class="contact__methods">
+          <li>
+            <span class="contact__label">Email</span>
+            <a href="mailto:chepkemboiedel@gmail.com">chepkemboiedel@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__label">Phone</span>
+            <a href="tel:+19517626318">+1 (951) 762-6318</a>
+          </li>
+          <li>
+            <span class="contact__label">Location</span>
+            <span>Riverside, CA</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="footer__logo">EK</a>
+      <p class="footer__text">Designed &amp; built by Edel Kiprop · 2026</p>
+      <ul class="footer__socials" aria-label="Social links">
+        <li><a href="https://github.com/chepkemboiedel-sudo" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/edel-kiprop-bb7a54276/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://public.tableau.com/app/profile/edel.kiprop1293/vizzes" target="_blank" rel="noopener">Tableau</a></li>
+        <li><a href="https://app.joinhandshake.com/profiles/hb3vxk" target="_blank" rel="noopener">Handshake</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="blob1" cx="20%" cy="15%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="85%" cy="90%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#08080c"/>
+  <rect width="1200" height="630" fill="url(#blob1)"/>
+  <rect width="1200" height="630" fill="url(#blob2)"/>
+  <g font-family="'Space Grotesk', Verdana, sans-serif">
+    <rect x="80" y="80" width="80" height="80" rx="16" fill="none" stroke="url(#g)" stroke-width="3"/>
+    <text x="120" y="137" font-size="40" font-weight="700" text-anchor="middle" fill="url(#g)">EK</text>
+    <text x="80" y="330" font-size="44" font-weight="500" fill="#22d3ee" font-family="'JetBrains Mono', monospace">Hi, my name is</text>
+    <text x="76" y="430" font-size="110" font-weight="700" fill="#e9e9f2">Edel Kiprop.</text>
+    <text x="80" y="510" font-size="46" font-weight="500" fill="#84849a">I build <tspan fill="url(#g)">machine learning models.</tspan></text>
+    <text x="80" y="580" font-size="28" fill="#b8b8c8" font-family="'JetBrains Mono', monospace">Data Scientist · ML · NLP · Analytics</text>
+  </g>
+</svg>

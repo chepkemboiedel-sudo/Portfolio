@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pypdf; r=pypdf.PdfReader\\('resume.pdf'\\); print\\('\\\\n'.join\\(\\(p.extract_text\\(\\) or ''\\) for p in r.pages\\)\\)\")",
+      "Bash(python -c \"import PyPDF2; r=PyPDF2.PdfReader\\('resume.pdf'\\); print\\('\\\\n'.join\\(\\(p.extract_text\\(\\) or ''\\) for p in r.pages\\)\\)\")",
+      "Bash(pdftotext -layout \"/c/Users/Edel Kiprop/Downloads/resume.pdf\" -)",
+      "Bash(mkdir -p css js assets)",
+      "Bash(cp \"/c/Users/Edel Kiprop/Downloads/resume.pdf\" \"assets/Edel-Kiprop-Resume.pdf\")",
+      "Read(//c/c/Users/Edel Kiprop/Desktop/**)",
+      "Bash(python -m http.server 8123)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8123/)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
