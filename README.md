@@ -1,5 +1,7 @@
 # Edel Kiprop — Portfolio
 
+Live Demo: https://portfolio-tau-one-dj0xal2vwh.vercel.app/
+
 A fast, dark-themed personal portfolio built with plain **HTML, CSS, and JavaScript** —
 no build step, no dependencies. Open it in a browser and it just works.
 
